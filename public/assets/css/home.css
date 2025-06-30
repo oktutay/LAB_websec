@@ -1,0 +1,62 @@
+/* Nền trang */
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Tiêu đề */
+h2 {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+/* Container sản phẩm */
+#productList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Card sản phẩm */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* Text trong card */
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-text {
+  color: #555;
+}
+
+/* Giá sản phẩm */
+.card-body p strong {
+  color: #007bff;
+}
+
+/* Footer + navbar có padding */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  color: #888;
+  font-size: 14px;
+}

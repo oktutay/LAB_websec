@@ -1,5 +1,5 @@
 
-# MÔ TẢ CHỨC NĂNG DỰ ÁN – Task01
+# MÔ TẢ CHỨC NĂNG DỰ ÁN
 
 ## 1. Chức năng người dùng (User)
 

@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
               data-id="${p.id}"
               data-name="${escapeHtml(p.name)}"
               data-price="${p.price}"
-              data-description="${escapeHtml(p.description)}"
+              data-description="${escapeHtml(p.description)}">
                Sửa
             </button>
             <button class="btn btn-sm btn-danger btn-delete"
@@ -180,7 +180,6 @@ document.addEventListener("DOMContentLoaded", () => {
       })
       .catch(err => console.error("Lỗi mua hàng:", err));
   });
-
   // ----------------------------
   // Load sản phẩm ban đầu
   // ----------------------------

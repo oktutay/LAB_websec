@@ -63,6 +63,15 @@
   <button type="button" class="btn btn-secondary" id="cancelEdit">Hủy</button>
 </form>
 
+    <!--Tìm kiếm nguoi dung theo email(Tiêm SQLi)-->
+<form action="../backend/api/user/data.php" method="post">
+    <div class="container mt-4 mb-3">
+     <input type="text" name='SearchInput' class="form-control" placeholder="Tìm người dùng theo email(Tiêm SQLi)">
+    </div>
+    <div><button type="submit"> Tìm </button></div>
+  </div>
+</form>
+
   <script src="/Task1_VNPT_oktutay/public/assets/js/home.js"></script>
 </body>
 </html>
